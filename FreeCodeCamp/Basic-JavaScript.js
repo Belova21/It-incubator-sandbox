@@ -38,10 +38,30 @@ function reusableFunction() {
   reusableFunction();
 
 // Функция с несколькими аргументами 
-  function functionWithArgs(param1, param2) {
+function functionWithArgs(param1, param2) {
     console.log(param1 + param2);
   }
   
   functionWithArgs(2, 4)
 
+// Добавление элемента в конец массива, удаление первого элемента 
+function nextInLine(arr, item) {
+  arr.push(item);
+  return arr.shift();
+}
   
+let testArr = [1, 2, 3, 4, 5];
+  
+console.log("Before: " + JSON.stringify(testArr));
+console.log(nextInLine(testArr, 6));
+console.log("After: " + JSON.stringify(testArr));
+
+// Конструкция if-else
+function trueOrFalse(wasThatTrue) {
+  if (wasThatTrue) {
+    return 'Yes, that was true';
+  }
+  return 'No, that was false'
+}
+
+
