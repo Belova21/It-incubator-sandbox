@@ -1,4 +1,4 @@
-//Quadrants
+// Quadrants
 function quadrant(x, y) {
     if (x > 0) {
       if (y > 0) {

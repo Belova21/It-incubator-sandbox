@@ -1,4 +1,4 @@
-//Summation
+// Summation
 var summation = function (num) {
   let sum = 0;
 
@@ -13,12 +13,12 @@ var summation1 = function (num) {
     return num * (num + 1) / 2
 }
 
-//Opposite number
+// Opposite number
 function opposite(number) {
   return number * (-1)
 }
 
-//Convert a Number to a String!
+// Convert a Number to a String!
 function numberToString(num) {
   return String(num);
 }
@@ -28,7 +28,7 @@ function boolToWord( bool ){
   return bool ? 'Yes' : 'No'
 }
 
-//Find the smallest integer in the array
+// Find the smallest integer in the array
 function findSmallestInt(args) {
   let min = args[0];
   for (let i = 1; i < args.length; i++ ) {
@@ -39,7 +39,7 @@ function findSmallestInt(args) {
   return min
 }
 
-//Remove First and Last Character
+// Remove First and Last Character
 function removeChar(str){
   return str.slice(1, str.length - 1)
 }
